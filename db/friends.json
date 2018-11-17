@@ -1,0 +1,49 @@
+{
+  "friends":{
+    "friend1":{
+  "name": "Callan M.",
+  "address": "1 Main Street, Nashville, TN 37209",
+  "phoneNumber": "1112223333",
+  "email": "callan@yomamma.com",
+  "relationship": "sister from anotha mother",
+  "isAvoiding": false,
+  "uid": "XclCcAcJvVUOpeQwc7OeVp8dKq03"
+    },
+    "friend2":{
+      "name": "Nallan M.",
+      "address": "1 Main Street, Nashville, TN 37209",
+      "phoneNumber": "1112223333",
+      "email": "callan@yomamma.com",
+      "relationship": "sister from anotha mother",
+      "isAvoiding": false,
+      "uid": "XclCcAcJvVUOpeQwc7OeVp8dKq03"
+        },
+        "friend3":{
+          "name": "Ballan M.",
+          "address": "1 Main Street, Nashville, TN 37209",
+          "phoneNumber": "1112223333",
+          "email": "callan@yomamma.com",
+          "relationship": "sister from anotha mother",
+          "isAvoiding": false,
+          "uid": "XclCcAcJvVUOpeQwc7OeVp8dKq03"
+            },
+            "friend4":{
+              "name": "Sallan M.",
+              "address": "1 Main Street, Nashville, TN 37209",
+              "phoneNumber": "1112223333",
+              "email": "callan@yomamma.com",
+              "relationship": "sister from anotha mother",
+              "isAvoiding": false,
+              "uid": "XclCcAcJvVUOpeQwc7OeVp8dKq03"
+                },
+                "friend5":{
+                  "name": "Yallan M.",
+                  "address": "1 Main Street, Nashville, TN 37209",
+                  "phoneNumber": "1112223333",
+                  "email": "callan@yomamma.com",
+                  "relationship": "sister from anotha mother",
+                  "isAvoiding": true,
+                  "uid": "someOtherUsersIdHere"
+                    }
+  }
+}
