@@ -2,7 +2,7 @@ import firebase from 'firebase/app';
 import 'firebase/auth';
 import $ from 'jquery';
 
-const checkLoginStatus = () => {
+const checkLoginStatus = (initializeFriendsPage) => {
   firebase.auth().onAuthStateChanged((user) => {
     if (user) {
       $('#friends').hide();
@@ -13,6 +13,7 @@ const checkLoginStatus = () => {
       $('#navbar-button-friends').show();
       $('#navbar-button-logout').show();
       console.log('the user', user);
+      initializeFriendsPage();
     } else {
       $('#friends').hide();
       $('#holidays').hide();
@@ -25,4 +26,6 @@ const checkLoginStatus = () => {
   });
 };
 
-export default { checkLoginStatus };
+const getCurrentUid = () => firebase.auth().currentUser.uid;
+
+export default { checkLoginStatus, getCurrentUid };
